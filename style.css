@@ -1,0 +1,107 @@
+    html{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(50, 195, 252);
+}
+
+h1{
+    color: white;
+    font-size: 52px;    
+}
+
+#nav_btns{
+    display: flex;
+    align-items: center;
+}
+
+.nav_btns{
+    color: white;
+    border: none;
+    background: none;
+    font-size: 36px;
+    height: 15%;    
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+.tempBar{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid black; 
+}
+
+h2{
+    margin-left: ;
+    margin-right: 50%;
+}
+
+.temp{
+    font-size: 26px;
+}
+
+select{
+    border: 3px solid black;
+}
+
+.forecast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1%;
+}
+
+h3{ 
+    margin-left: 33%;
+    font-size: 28px;
+}
+
+img{
+    width: 90%;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+#today{
+    background-color: lightgray;
+}
+
+#tomorrow{
+    background-color: lightgray;
+}
+
+#friday{
+    background-color: lightgray;
+}
+
+#saturday{
+    background-color: lightgray;
+}
+
+.weather{
+    margin-left: 25%;
+    font-size: 22px;
+}
+
+.high{
+    color: red;
+    margin-right: 50%;
+    margin-left: 10%;
+    font-size: 22px;
+}
+
+.low{
+    color: blue;
+    font-size: 22px;
+}

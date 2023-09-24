@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <div class="nav">
+        <h1>DojoWeather</h1>
+        <div id="nav_btns">
+            <button class="nav_btns" onclick="cookie()">Burbank</button>
+            <button class="nav_btns" onclick="cookie()">Chicago</button>
+            <button class="nav_btns" onclick="cookie()">Dallas</button>
+        </div>
+    </div>
+
+    <div class="tempBar">
+        <h2>San Jose</h2>
+        <p class="temp">show temperature in 
+            <select name="temperature" id="temp" onchange="degreeChange(this)">
+                <option value="C">°C</option>
+                <option value="C">°F</option>
+            </select>
+        </p>
+    </div>
+
+    <div class="forecast">
+
+        <div id="today">
+            <h3>Today</h3>
+            <img src="assets/some_rain.png" alt="Some rain">
+            <p class="weather">some rain</p>
+            <p> <span class="high" id="temp1">24°</span> <span class="low" id="temp2">18°</span></p>
+        </div>
+
+        <div id="tomorrow">
+            <h3>Tomorrow</h3>
+            <img src="assets/some_sun.png" alt="Sunny">
+            <p class="weather">some sun</p>
+            <p> <span class="high" id="temp3">27°</span> <span class="low" id="temp4">19°</span></p>
+        </div>
+
+        <div id="friday">
+            <h3>Friday</h3>
+            <img src="assets/some_clouds.png" alt="Some Clouds">
+            <p class="weather">some clouds</p>
+            <p> <span class="high" id="temp5">21°</span> <span class="low" id="temp6">16°</span></p>
+            
+        </div>
+
+        <div id="saturday">
+            <h3>Saturday</h3>
+            <img src="assets/some_sun.png" alt="Sunny">
+            <p class="weather">some sun</p>
+            <p> <span class="high" id="temp7">26°</span> <span class="low" id="temp8">21°</span></p>         
+        </div>
+
+    </div>
+</body>
+</html>
